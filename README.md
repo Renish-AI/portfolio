@@ -136,13 +136,7 @@ npm run start
 
 ## ☁️ Deployment on Vercel
 
-1. Push your repository to GitHub.
-2. Sign in to [Vercel](https://vercel.com/) and click **"Add New Project"**.
-3. Import the `portfolio` repository.
-4. Set the **Root Directory** to `my-app`:
-   - Click **Edit** next to **Root Directory**
-   - Select or type `my-app`
-5. Keep **Framework Preset** as **Next.js** and click **Deploy**.
+Website Link: https://portfolio-renish-25.vercel.app/
 
 ---
 

@@ -1,0 +1,23 @@
+Commercial website
+Website link: https://redenergy.vercel.app/
+git: https://github.com/Renish-AI/Commercial-Website
+description: 
+**Commercial Website** is a modern, responsive business-oriented web application designed to provide a professional digital presence for commercial services. Built using **React, TypeScript, Vite, and Tailwind CSS**, the project focuses on creating a clean and interactive user interface with reusable components, responsive layouts, and an engaging visual experience. The website demonstrates modern frontend development practices and is deployed online using **Vercel**.
+
+Smart Campus-portal
+Website link: https://smart-campus-portal-taupe.vercel.app/
+git: https://github.com/Renish-AI/SmartCampus-Portal
+description: 
+**SmartCampus Portal** is a smart academic management web application designed to centralize and simplify campus-related activities. The platform provides a unified interface for students and campus users to access academic information, manage activities, and interact with campus services. Built with **React, TypeScript, Vite, and backend APIs**, the project also integrates **Google Gemini AI** to provide intelligent features. The application follows a modern web architecture and is deployed on **Vercel**.
+
+Globetrotter-2.0
+Website link: https://globetrotter-2-0.vercel.app/
+git: https://github.com/Renish-AI/Globetrotter_2.0
+description: 
+**GlobeTrotter 2.0** is an intelligent travel-planning web application designed to help users organize and personalize their trips. The platform provides an interactive travel experience for exploring destinations and planning journeys, with **AI-powered functionality through the Google Gemini API**. The application follows a modern full-stack architecture with dedicated frontend and backend components and is deployed using **Vercel**. It demonstrates the integration of AI services into a practical travel-planning platform.
+
+Odoo Hackathon project
+Website link: https://planningtrip.vercel.app/
+git: https://github.com/Renish-AI/Odoo
+description: 
+**GlobeTrotter** is a full-stack intelligent travel-planning platform designed to simplify complex multi-city trip planning through an interactive visual interface. It allows users to create and manage itineraries, arrange activities using drag-and-drop scheduling, track travel budgets, analyze trip health, and share or clone complete travel plans. The application is built using **React 18, Vite, Tailwind CSS, Framer Motion, Supabase PostgreSQL, and Recharts**, with AI-assisted travel recommendations and secure authentication through Supabase. It also includes real-time budget analytics, interactive route visualization, public travel stories, and responsive UI/UX.

@@ -73,25 +73,76 @@ A high-performance portfolio website built with **Next.js 16 (App Router + Turbo
 
 ---
 
+## 📂 Project Structure
+
+```bash
+portfolio/
+├── my-app/                         # Next.js Application Root
+│   ├── public/                     # Static Assets & Resume
+│   │   ├── images/                 # Optimized project photos & cutouts
+│   │   └── Renish_Mansara_Resume.pdf
+│   ├── src/
+│   │   ├── app/                    # Next.js App Router
+│   │   │   ├── layout.tsx          # Root Layout & Font definitions
+│   │   │   ├── page.tsx            # Main Portfolio Page
+│   │   │   ├── globals.css         # Tailwind & theme styles
+│   │   │   └── work/[slug]/        # Dynamic Case Study detail routes
+│   │   ├── components/             # Modular UI Components
+│   │   │   ├── Navbar.tsx          # Fixed blur navbar with live counters
+│   │   │   ├── Hero.tsx            # Cutout & spotlight reveal
+│   │   │   ├── WorkGrid.tsx        # Project showcase & direct links
+│   │   │   ├── ServiceList.tsx     # Expanding rows & tilt mockup hover
+│   │   │   ├── ExperienceList.tsx  # Dark theme experience showcase
+│   │   │   ├── Footer.tsx          # Curtain reveal CTA & mail trigger
+│   │   │   ├── CustomCursor.tsx    # Magnetic custom cursor
+│   │   │   └── SmoothScroll.tsx    # Inertial smooth scroll provider
+│   │   └── data/
+│   │       └── data.ts             # Centralized project & profile content
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── next.config.ts
+└── README.md
+```
+
+---
+
 ## 💻 Local Development
 
-### 1. Install Dependencies
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Renish-AI/portfolio.git
+cd portfolio/my-app
+```
+
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-### 2. Run Development Server
+### 3. Run Development Server
 ```bash
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-### 3. Build for Production
+### 4. Build for Production
 ```bash
 npm run build
 npm run start
 ```
+
+---
+
+## ☁️ Deployment on Vercel
+
+1. Push your repository to GitHub.
+2. Sign in to [Vercel](https://vercel.com/) and click **"Add New Project"**.
+3. Import the `portfolio` repository.
+4. Set the **Root Directory** to `my-app`:
+   - Click **Edit** next to **Root Directory**
+   - Select or type `my-app`
+5. Keep **Framework Preset** as **Next.js** and click **Deploy**.
 
 ---
 
